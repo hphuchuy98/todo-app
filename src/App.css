@@ -35,6 +35,15 @@ body {
     border-top: 1px solid #678c89;
 }
 
+.todo-item span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 80%;
+    height: 18px;
+    display: inline-block;
+}
+
 .todo-item input {
     margin-right: 15px;
 }
@@ -88,3 +97,4 @@ body {
     outline: none;
     height: 28px;
 }
+
