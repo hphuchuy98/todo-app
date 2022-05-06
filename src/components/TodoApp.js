@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Todos from "./Todos";
 import Header from "./layout/Header";
 import AddTodo from "./AddTodo";
-import Footer from "./layout/Footer";
+import Footer from "../store/containers/Footer";
 
 import axios from "axios"; //Khai báo thư viện axios
 
